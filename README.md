@@ -1,6 +1,6 @@
 # 🤖 Solana AI Meme Agent
 
-Reyna A powerful AI-powered meme coin influencer agent built for the Solana AI Hackathon 2024. This agent autonomously manages social media presence, trading strategies, and community engagement for meme tokens on Solana.
+**Reyna** is a powerful AI-powered meme coin influencer agent, powered by cutting-edge technologies and developed for the Solana AI Hackathon 2024 winning project. This agent autonomously manages social media presence, executes trading strategies, and fosters community engagement for meme tokens on the Solana network.
 
 ## 🌟 Features
 
@@ -19,7 +19,7 @@ Reyna A powerful AI-powered meme coin influencer agent built for the Solana AI H
 - Risk analysis and trade execution
 
 ### AI Integration
-- Uses Groq for fast inference
+- Powered by Groq for fast inference
 - Context-aware responses
 - Meme content generation
 - Market sentiment analysis
@@ -59,23 +59,19 @@ npm install
 # Setup environment variables
 cp .env.example .env
 # Add your API keys and configuration
-```
+⚙️ Configuration
+Create a .env file with:
 
-## ⚙️ Configuration
-
-Create a `.env` file with:
-
-```env
+env
+Copy code
 SOLANA_PRIVATE_KEY=your_private_key
 SOLANA_RPC_URL=your_rpc_url
 GROQ_API_KEY=your_groq_api_key
 TWITTER_API_KEY=your_twitter_api_key
 DISCORD_TOKEN=your_discord_token
-```
-
-## 🚀 Usage
-
-```bash
+🚀 Usage
+bash
+Copy code
 # Start the agent
 npm start
 
@@ -84,19 +80,15 @@ npm run dev
 
 # Run tests 
 npm test
-```
-
-## 💡 Commands
-
-### Discord Commands
-- `!price` - Get current token price
-- `!stats` - View token statistics
-- `!trade` - Execute a trade
-- `!help` - List available commands
-
-## 📊 Architecture
-
-```
+💡 Commands
+Discord Commands
+!price - Get current token price
+!stats - View token statistics
+!trade - Execute a trade
+!help - List available commands
+📊 Architecture
+bash
+Copy code
 src/
 ├── config/         # Configuration files
 ├── services/       # Core services
@@ -105,62 +97,44 @@ src/
 │   └── trading.ts  # Trading service
 ├── utils/          # Utility functions
 └── index.ts        # Main entry point
-```
-
-## 🔄 Integration with Hackathon Sponsors
-
-- **ai16z/Eliza** - Multi-agent simulation framework
-- **Jito** - MEV and transaction bundling
-- **Jupiter** - Token swaps and routing
-- **Helius** - RPC and transaction management
-- **Crossmint** - Wallet management
-- **Meteora** - LP and DeFi integrations
-
-## 🛡️ Security
-
-- Rate limiting for API calls
-- Secure key management
-- Transaction verification
-- Error handling and logging
-
-## 🧪 Testing
-
-```bash
+🔄 Integration with Hackathon Sponsors
+ai16z/Eliza - Multi-agent simulation framework
+Jito - MEV and transaction bundling
+Jupiter - Token swaps and routing
+Helius - RPC and transaction management
+Crossmint - Wallet management
+Meteora - LP and DeFi integrations
+🛡️ Security
+Rate limiting for API calls
+Secure key management
+Transaction verification
+Error handling and logging
+🧪 Testing
+bash
+Copy code
 # Run unit tests
 npm run test
 
 # Run integration tests
 npm run test:integration
-```
+🤝 Contributing
+Fork the repository
+Create your feature branch (git checkout -b feature/amazing-feature)
+Commit your changes (git commit -m 'Add amazing feature')
+Push to the branch (git push origin feature/amazing-feature)
+Open a Pull Request
+📜 License
+This project is licensed under the ISC License - see the LICENSE file for details.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📜 License
-
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Solana Foundation
-- Hackathon Sponsors
-- AI/ML Community
-- Solana Developer Community
-
-## 📞 Support
-
+🙏 Acknowledgments
+Solana Foundation
+Hackathon Sponsors
+AI/ML Community
+Solana Developer Community
+📞 Support
 Join our Discord for support or create an issue in the repository.
 
-## 🚨 Disclaimer
-
+🚨 Disclaimer
 This is experimental software. Use at your own risk. Always perform due diligence before trading or deploying tokens.
 
----
-
 Built with ❤️ for the Solana AI Hackathon 2024
-
