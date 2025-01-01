@@ -1,6 +1,6 @@
 # 🤖 Solana AI Meme Agent
 
-A powerful AI-powered meme coin influencer agent built for the Solana AI Hackathon 2024. This agent autonomously manages social media presence, trading strategies, and community engagement for meme tokens on Solana.
+Reyna A powerful AI-powered meme coin influencer agent built for the Solana AI Hackathon 2024. This agent autonomously manages social media presence, trading strategies, and community engagement for meme tokens on Solana.
 
 ## 🌟 Features
 
